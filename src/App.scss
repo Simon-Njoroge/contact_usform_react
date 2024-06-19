@@ -1,0 +1,114 @@
+#root {
+  padding: 2rem;
+  margin: 10% 25%;
+}
+body{
+  background-color: aliceblue;
+}
+form{
+  border: 2px solid red;
+  max-width: 400px;
+  padding: .5em 1em;
+  border-radius: 10px;
+}
+.sending{
+  color: red;
+}
+.contactinfo{
+  max-width: 400px;
+}
+.names{
+  display: flex;
+  padding-bottom: 10px;
+  justify-content: space-between;
+}
+.first{
+  display: block;
+}
+#email{
+  width: 98%;
+}
+.selectg{
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.selectg label{
+border: 1px solid salmon;
+padding: 5px;
+border-radius: 5px;
+font-size: 20px;
+background-color: bisque;
+}
+.select{
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.select select{
+  background-color: bisque;
+}
+.age{
+  display: block;
+}
+.age input{
+  outline: none;
+  background-color: bisque;
+}
+button{
+  width: 100%;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: honeydew;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
+
+.err{
+  background-color: rgba(255,255,255,0.3);
+  color: red;
+}
+.err1{
+  font-style: italic;
+  font-size: 10px;
+}
+.err2{
+  font-style: italic;
+  font-size: 10px;
+}
+.err3{
+  font-style: italic;
+  font-size: 10px;
+  color: red;
+}
+@media only screen and (max-width:768px){
+  #root {
+    padding: 2rem;
+    margin: 10% 5%;
+  }
+  .names{
+    display: block;
+    padding-bottom: 20px;
+    
+  }
+  .selectg{
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  .first{
+    width: 100%;
+  }
+  #last{
+    width: 100%;
+  }
+  #email{
+    width: 100%;
+  }
+}
